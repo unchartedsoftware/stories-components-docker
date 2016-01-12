@@ -1,7 +1,7 @@
 FROM node:4.2.2
 
 RUN apt-get update
-RUN apt-get install -y libicu-dev libfontconfig1-dev libjpeg-dev libfreetype6 libsqlite3-dev libssl-dev libpng-dev unzip
+RUN apt-get install -y build-essential libicu-dev libfontconfig1-dev libjpeg-dev libfreetype6 libsqlite3-dev libssl-dev libpng-dev unzip gperf bison ruby flex g++ perl python libxext-dev libx11-dev
 
 RUN mkdir /pjs2
 
